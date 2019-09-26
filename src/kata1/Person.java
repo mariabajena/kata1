@@ -6,7 +6,7 @@ import java.util.GregorianCalendar;
 public class Person {
     private final String name;
     private final Calendar birthdate;
-    private final long MILLISECONDS_PER_YEAR = (long) (100*60*60*24*365.25);
+    private final long MILLISECONDS_PER_YEAR = (long) (1000*60*60*24*365.25);
 
     public String getName() {
         return name;
